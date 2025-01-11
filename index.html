@@ -5,12 +5,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="author" content="Okon Nsikak">
-  <meta name="description" content="WDD 230: Web Frontend Development I by Okon Nsikak. Demonstrates HTML, CSS, and JavaScript skills by building a dynamic course portal home page with features like responsive design and dynamic date updates." />
+  <meta name="description" content="WDD 230: Web Frontend DevelopmentI by Okon Nsikak. Demonstrates HTML, CSS, and JavaScript skills by building a dynamic course portal home page with features like responsive design and dynamic date updates." />
   <title> Okon  Nsikak - WDD 230 - Web Frontend Development</title>
-  <link rel="stylesheet" href="./stylees/base.css">
+  <link rel="stylesheet" href="./styles/base.css">
   <link rel="stylesheet" href="./styles/larger.css">
 </head>
 <body>
+  <header>
+    <img  src="./images/profile.jpg" alt="Okon Nsikak" id="profile">
+    <span id="name" >Okon Nsikak</span>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="./index.html" class="active">Home</a></li>
+      <li><a href="chamber">Chamber</a></li>
+      <li><a href="siteplan">Site Plan</a></li>
+      <li><a href="form">Form</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h1> WDD230: Web Frontend Development </h1>
 
+    <section class="card">
+      <h2>Learning Activities</h2>
+      <ul>
+        <li>Week 1: <span><a href="layout"> Layout| Media Query| Js Pen </a></span></li>
+        <li>Week 2: </li>
+        <li>Week 3:</li>
+        <li>Week 4: </li>
+        <li>Week 5: </li>
+        <li> Week 6: </li> 
+      </ul>
+    </section>
+    <section class="card">
+      <h2>Information</h2>
+      <p> Lagos, Nigeria </p>
+      <p>Weather Sunny, 25°C (Placeholder)</p>
+      <p>Number of Visits: 123 (Placeholder)</p>
+      </section>
+  </main>  
+  <footer>
+     <span id="copyrightInfo"></span> <br>
+      <span id="lastModified"></span>
+  </footer>
+  <script src="./script/getDates.js"></script>
 </body>
 </html>
