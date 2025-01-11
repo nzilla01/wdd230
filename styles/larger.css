@@ -54,7 +54,7 @@
   main{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    column-gap: 1rem;
+    column-gap: 1.5rem;
     margin: 2rem 5rem;
   }
   h1{
@@ -63,9 +63,10 @@
   }
   h2{
     background-color: var(--header);
-    padding:15px;
+    padding:10px;
     color: var(--neutral);
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     text-align: center;
   }
   .card{
