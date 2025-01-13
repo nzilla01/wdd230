@@ -100,4 +100,11 @@
     font-weight: 200;
     color: var(--neutral);
 }
+#desktop{
+  width: 300px;
+  height: auto;
+}
+#mobile{
+  width: 150px;
+}
   
