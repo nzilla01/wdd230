@@ -6,25 +6,36 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="author" content="Okon Nsikak">
   <meta name="description" content="WDD 230: Web Frontend DevelopmentI by Okon Nsikak. Demonstrates HTML, CSS, and JavaScript skills by building a dynamic course portal home page with features like responsive design and dynamic date updates." />
-  <title> Okon  Nsikak - WDD 230 - Web Frontend Development</title>
+  <meta property="og:title" content="Okon Nsikak - WDD 230 - Web Frontend Development">
+  <meta property="og:description" content="Explore Okon Nsikak's WDD 230 course project featuring responsive design, accessibility, and JavaScript enhancements.">
+  <meta property="og:image" content="./images/favicon">
+  <meta property="og:url" content="https://nzilla01.github.io/wdd230">
+  <link rel="icon" href="./week01/images/favicon.ico" type="image/x-icon">
+  <title>Okon Nsikak - WDD 230 - Web Frontend Development</title>
+  <link rel="stylesheet" href="./styles/normalize.css">
   <link rel="stylesheet" href="./styles/base.css">
   <link rel="stylesheet" href="./styles/larger.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-
 </head>
 <body>
   <header>
     <img  src="./images/profile.jpg" alt="Okon Nsikak" id="profile">
     <span id="name" >Okon Nsikak</span>
+    <button class="toggle-btn" id="dark-mode-toggle">&#127769;</button>
   </header>
+
   <nav>
-    <ul>
+    <button class="hambuger"></button>
+
+    <ul id="menu">
       <li><a href="./index.html" class="active">Home</a></li>
       <li><a href="./week01/chamber-site-plan.html">Chamber</a></li>
       <li><a href="siteplan">Site Plan</a></li>
       <li><a href="form">Form</a></li>
     </ul>
+
   </nav>
+
   <main>
     <h1> WDD230: Web Frontend Development </h1>
 

@@ -13,3 +13,24 @@ const copyrightText = `&copy; ${currentYear} 🌸 ${name} 🌸 ${country}, ${sta
 
 // Insert the copyright text into the element with id 'copyrightInfo'
 document.getElementById("copyrightInfo").innerHTML = copyrightText;
+
+// toggle background color of the body
+// Get the button and the body element
+const toggleBtn = document.getElementById('dark-mode-toggle');
+const body = document.body;
+
+// Event listener to toggle dark mode
+toggleBtn.addEventListener('click', () => {
+  body.classList.toggle('dark-mode');
+});
+
+// the navbar toggle script
+const menu = document.querySelector('.hambuger');
+
+const navBar = document.getElementById('menu');
+
+menu.addEventListener('click', () => {
+   navBar.classList.toggle('active');
+    menu.classList.toggle('show');
+});
+
