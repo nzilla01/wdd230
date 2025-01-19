@@ -29,7 +29,6 @@
         background: none;
         border: none;
         font-size: 2.5rem;
-        padding: 5px 10px;
         color: var(--neutral);
     }
     .hambuger:before{
@@ -45,12 +44,6 @@
     }
     
     /* Navigation */
-    nav {
-        margin-bottom: 1rem;
-       
-    
-    }
-    
     #menu {
         display: none;
     }
@@ -58,7 +51,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0.5rem 0;
+
+    }
+    nav{
+        background-color: var(--header);
+        margin-bottom: 1rem;
     }
     
     nav ul li {
@@ -88,12 +85,44 @@
     /* Main Content */
     main {
         display: block;
-        margin: 1rem;
+        margin: 0.4rem;
         padding: 0;
     }
+
+    #hero {
+        background-image: url('../images/adeolu-eletu-E7RLgUjjazc-unsplash.jpg'); /* Path to your hero image */
+        background-size: cover; /* Ensures the image covers the entire area */
+        background-position: center;
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        height: 20rem ;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        text-align: center; 
+        padding: 2rem;
+        position: relative;
+    }
+    #call-to-action{
+        text-align: center;
+        box-shadow: none;
+    }
+    #call-to-action a{
+        background: black;
+        color: var(--text-highlight);
+        font-size: 1rem;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 40px;
+    }
+    h2{
+        position: absolute;
+        left: 3px;
+        top:5rem;
+        font-size: 2rem;
+        font-weight: 900;
+    }
     
-    
-    h2 {
+    h3{
         background-color: var(--header);
         color: var(--neutral);
         padding: 10px;
@@ -102,27 +131,11 @@
         text-align: center;
         font-size: 1rem;
     }
-    
-    .card {
-        margin-bottom: 1rem;
-        border: 1px solid #000;
-        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
-        border-radius: 8px;
-        overflow: hidden;
+    section{
+        margin: 20px;
+        padding: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
-    
-    section ul {
-        padding: 1rem;
-        margin: 0;
-        font-weight: 900;
-    }
-    
-    section ul li{
-        padding: 1rem 0;
-      }
-      section ul li a{
-        font-size: 1.2rem;
-      }
     
     section p {
         padding: 1rem;

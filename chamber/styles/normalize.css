@@ -1,0 +1,29 @@
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  :root{
+    --darkmode:#000;
+    --lightmode:#fff;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    color: #333;
+    background-color: var(--lightmode);
+  }
+
+  /* Light Mode Styles (default) */
+body {
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
