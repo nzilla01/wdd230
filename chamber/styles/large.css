@@ -61,6 +61,7 @@
     main {
         display: grid;
         grid-template-columns:repeat(2, 1fr);
+        column-gap: 20px;
     }
 
     #hero {
@@ -87,6 +88,7 @@
     #call-to-action{
         text-align: center;
         box-shadow: none;
+        margin-top: 20px;
     }
     #call-to-action a{
         background: black;
