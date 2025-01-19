@@ -1,0 +1,22 @@
+
+@media screen and (max-width: 768px) {
+    *{
+        margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif
+    }
+    :root {
+        --header: #174e70;
+        --nav: #333333;
+        --footer-text: #6b8166;
+        --text-highlight: #f2ea59;
+        --neutral: #f2f2f2;
+        --active:#643219;
+    
+    }
+    
+
+
+}
