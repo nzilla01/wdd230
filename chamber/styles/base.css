@@ -16,7 +16,140 @@
         --active:#643219;
     
     }
+    header {
+        background-color: var(--header);
+        color: var(--neutral);
+        text-align: center;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .hambuger{
+        background: none;
+        border: none;
+        font-size: 2.5rem;
+        padding: 5px 10px;
+        color: var(--neutral);
+    }
+    .hambuger:before{
+        content:"☰";
+
+    }
+    .hambuger.show::before{
+        content: none;
+    }
     
+    .hambuger.show::after{
+        content: "x";
+    }
+    
+    /* Navigation */
+    nav {
+        margin-bottom: 1rem;
+       
+    
+    }
+    
+    #menu {
+        display: none;
+    }
+    #menu.active{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem 0;
+    }
+    
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+    
+    nav ul li a {
+        color: var(--neutral);
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: center;
+    }
+    /* Highlight active navigation link */
+    nav ul li a.active {
+        background-color: var(--active);  
+        font-weight: bold; 
+        border-radius: 10px; 
+        padding: 0.5rem 10rem; 
+        text-decoration: none;
+        display: block; 
+        width:100%; /* Full width */
+        overflow: hidden;
+    }
+    
+    
+    /* Main Content */
+    main {
+        display: block;
+        margin: 1rem;
+        padding: 0;
+    }
+    
+    
+    h2 {
+        background-color: var(--header);
+        color: var(--neutral);
+        padding: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        text-align: center;
+        font-size: 1rem;
+    }
+    
+    .card {
+        margin-bottom: 1rem;
+        border: 1px solid #000;
+        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    
+    section ul {
+        padding: 1rem;
+        margin: 0;
+        font-weight: 900;
+    }
+    
+    section ul li{
+        padding: 1rem 0;
+      }
+      section ul li a{
+        font-size: 1.2rem;
+      }
+    
+    section p {
+        padding: 1rem;
+        margin: 0;
+        font-size: 0.9rem;
+    }
+    
+    /* Footer */
+    footer {
+        text-align: center;
+        background-color: var(--header);
+        padding: 0.5rem;
+        overflow: hidden;
+        color:var(--neutral)
+      }
+      #lastModified{
+        color:var(--text-highlight);
+        font-size: 0.8rem;
+      }
+      #copyrightInfo{
+        padding: 0.4rem;
+        font-size: 15px;
+        font-weight: 200;
+        color: var(--neutral);
+    }
+
+
 
 
 }
