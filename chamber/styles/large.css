@@ -69,7 +69,7 @@
         background-size: cover; /* Ensures the image covers the entire area */
         background-position: center;
         background-repeat: no-repeat; /* Prevents the image from repeating */
-        height: 20rem ;
+        height: 25rem ;
         display: flex;
         align-items: center;
         justify-content: center; 
@@ -84,6 +84,7 @@
         top:5rem;
         font-size: 5ch;
         font-weight: 900;
+       z-index: 4;
     }
     #call-to-action{
         text-align: center;
