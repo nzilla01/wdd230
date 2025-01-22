@@ -58,9 +58,21 @@
     column-gap: 1.5rem;
     margin: 2rem 5rem;
   }
-  picture{
+  .image-card{
     grid-column: span 2;
     text-align: center;
+    position: relative;
+  }
+  #label{
+    font-size:3rem;
+    font-weight: 700;
+    color: var(--neutral);
+    position: absolute;
+    top:5rem;
+    font-family: cursive;
+    left: 1rem;
+    padding: 15px;
+    background: rgba(20, 20, 20, 0.3);
   }
   h1{
     grid-column: span 2;
