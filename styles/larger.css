@@ -58,6 +58,10 @@
     column-gap: 1.5rem;
     margin: 2rem 5rem;
   }
+  picture{
+    grid-column: span 2;
+    text-align: center;
+  }
   h1{
     grid-column: span 2;
     margin-bottom: 1rem;

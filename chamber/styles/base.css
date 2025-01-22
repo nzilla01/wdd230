@@ -36,7 +36,7 @@
     }
     .hambuger.show::before{
         content: none;
-    }
+    } 
     
     .hambuger.show::after{
         content: "x";
