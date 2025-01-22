@@ -108,6 +108,22 @@ main {
     margin: 1rem;
     padding: 0;
 }
+.image-card{
+    grid-column: span 2;
+    text-align: center;
+    position: relative;
+  }
+#label{
+    font-size:2.5rem;
+    font-weight: 700;
+    color: var(--neutral);
+    position: absolute;
+    top:5rem;
+    font-family: cursive;
+    left: 1rem;
+    padding: 5px;
+    background: rgba(20, 20, 20, 0.3);
+  }
 
 h1 {
     text-align: center;
