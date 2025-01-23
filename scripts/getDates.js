@@ -2,7 +2,6 @@
 const lastModified = document.lastModified;
 document.getElementById("lastModified").textContent = `Last Modification: ${lastModified}`;
 
-
 const name = "Okon Nsikak";
 const country = "Nigeria";
 const state = "Akwa Ibom State";
@@ -38,7 +37,7 @@ menu.addEventListener('click', () => {
 const counter = document.querySelector('.visitors');
 let count = 0;
 if(localStorage.getItem('count')) {
-  count = localStorage.getItem('count');
+  count = parseInt(localStorage.getItem('count'), 10);
   count++;
   localStorage.setItem('count', count);
 }
