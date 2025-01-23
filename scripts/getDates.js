@@ -1,4 +1,4 @@
-//Dynamically set the last modified date
+// set the last modified date
 const lastModified = document.lastModified;
 document.getElementById("lastModified").textContent = `Last Modification: ${lastModified}`;
 
@@ -33,4 +33,14 @@ menu.addEventListener('click', () => {
    navBar.classList.toggle('active');
     menu.classList.toggle('show');
 });
+
+// get the number of visitors
+const counter = document.querySelector('.visitors');
+let count = 0;
+if(localStorage.getItem('count')) {
+  count = localStorage.getItem('count');
+  count++;
+  localStorage.setItem('count', count);
+}
+counter.innerHTML = `Number of vistors: ${count}`
 
