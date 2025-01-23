@@ -23,6 +23,9 @@
     display: flex;
     justify-content: center;
   }
+  .hambuger{
+    display: none;
+  }
    header img{
     width:120px;
     height:auto;
@@ -62,6 +65,7 @@
     grid-column: span 2;
     text-align: center;
     position: relative;
+    overflow: hidden;
   }
   #label{
     font-size:3rem;
@@ -104,6 +108,11 @@
   }
   section ul li a{
     font-size: 1.2rem;
+  }
+  .iframe{
+    grid-column: span 2;
+    text-align: center;
+    margin-top: 2rem;
   }
   footer {
     text-align: center;
