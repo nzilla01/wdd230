@@ -38,8 +38,9 @@ const counter = document.querySelector('.visitors');
 let count = 0;
 if(localStorage.getItem('count')) {
   count = parseInt(localStorage.getItem('count'), 10);
+}
   count++;
   localStorage.setItem('count', count);
-}
+
 counter.innerHTML = `Number of vistors: ${count}`
 
