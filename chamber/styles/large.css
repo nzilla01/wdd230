@@ -140,6 +140,52 @@
         color: var(--neutral);
     }
 
+/*  discover add ups*/
+
+.grid_container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+#side_bar{
+    padding:10px;
+    margin: 20px 6px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+#side_bar img{
+    border-radius: 10px;
+}
+#side1, #side2, #side3, #side4,#message {
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    margin: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    line-height: 2rem;
+}
+#side_bar p{
+    text-align: left;
+    padding: 3px;
+}
+#side_bar h4{
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+
+#main figure {
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+#main figure img {
+    width: 100%; 
+    height: 500px;
+    object-fit: cover; 
+    display: block; 
+    border-radius: 8px; 
+}
 
 
 

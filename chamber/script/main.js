@@ -23,3 +23,23 @@ menu.addEventListener('click', () => {
    navBar.classList.toggle('active');
     menu.classList.toggle('show');
 });
+// for the dicover page
+let lastVisit = localStorage.getItem('lastVisit');
+let currentDate = new Date();
+
+if (!lastVisit) {
+    document.querySelector('.message').innerHTML = "Welcome! Let us know if you have any questions.";
+    localStorage.setItem('lastVisit', currentDate.toISOString().split('T')[0]);
+} else {
+    let lastVisitDate = new Date(lastVisit);
+    let timeDiff = Math.floor((currentDate - lastVisitDate) / (1000 * 3600 * 24));
+
+    if (timeDiff < 1) {
+        document.querySelector('.message').innerHTML = "Back so soon! Awesome!";
+    } else {
+        let dayText = timeDiff === 1 ? 'day' : 'days';
+        document.querySelector('.message').innerHTML = `You last visited ${timeDiff} ${dayText} ago.`;
+    }
+
+    localStorage.setItem('lastVisit', currentDate.toISOString().split('T')[0]);
+}
