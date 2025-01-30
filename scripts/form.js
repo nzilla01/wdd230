@@ -20,3 +20,15 @@ menu.addEventListener('click', () => {
    navBar.classList.toggle('active');
     menu.classList.toggle('show');
 });
+
+//pw = password 
+//cpw = comfirm password, while fb = feedback to be recived in the div tag
+
+const pw = document.getElementById('password');
+const cpw =document.getElementById('cpassword');
+const fb = document.getElementById('meg');
+
+cpw.addEventListener('focusout', password);
+
+
+
