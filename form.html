@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Okon Nsikak">
+    <meta name="description" content="WDD 230: Web Frontend DevelopmentI by Okon Nsikak. form submission." >
+    <meta property="og:title" content="Okon Nsikak - WDD 230 - Web Frontend Development form input">
+    <meta property="og:description" content="Explore Okon Nsikak's WDD 230 course project featuring responsive design, accessibility, and JavaScript enhancements.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://okonnsikak.github.io/wdd230/images/profile.jpg">
+    <meta property="og:url" content="https://okonnsikak.github.io/wdd230/">
+    <link rel="icon" href="./week01/images/favicon.ico" type="image/x-icon">
+    <title>Okon Nsikak - WDD 230 - Web Frontend Development</title>
+    <link rel="stylesheet" href="./styles/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+<body>
+     <header>
+        <img  src="./images/profile.webp" alt="Okon Nsikak" id="profile">
+        <span id="name" >Okon Nsikak</span>
+      </header>
+    
+      <nav>
+        <button class="hambuger"></button>
+    
+        <ul id="menu">
+          <li><a href="./index.html" >Home</a></li>
+          <li><a href="./chamber/index.html">Chamber</a></li>
+          <li><a href="./week01/chamber-site-plan.html">Site Plan</a></li>
+          <li><a href="./form.html" class="active">Form</a></li>
+        </ul>
+    
+      </nav>
+
+
+      <main>
+        <h2> Form Submit</h2>
+        <form method="get">
+            <label for="username"> Username: </label>
+            <input type="text" id="username" name="username" required>
+
+            <br>
+    
+            <label for="email"> Email: </label>
+            <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" required>
+            
+
+            <br>
+
+            <label for="password"> Password: </label>
+                <input type="password" id="password" name="password" pattern="[a-zA-Z0-9](8,)" title="password must be up to 7" required>
+
+            <br>
+
+            <label for="password"> Comfirm Password: </label>
+                <input type="password" id="cpassword" name="cpassword" pattern="[a-zA-Z\s](8,)" title=" must match the password" required>
+
+                <br>
+            <label for="range">INPUT:</label>
+            <div id="rangevalue">0</div>
+            <input type="range" id="range" name="range" min="0" max="10" value="0" step="1" list="rangevalues">
+            <datalist id="rangevalues">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </datalist>
+            <br>
+
+
+            <input type="submit" name="button" value="Submit">
+        </form>
+
+      </main>
+
+      <footer>
+        <span id="copyrightInfo"></span> <br>
+         <span id="lastModified"></span>
+     </footer>
+     <script src="./scripts/form.js" defer></script>
+</body>
+</html>
