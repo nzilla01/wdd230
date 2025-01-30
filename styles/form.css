@@ -186,6 +186,11 @@
         transform: scale(1.05);
     }
 
+    #meg{
+        color:red;
+        font-size:1rem;
+        text-align: center;
+    }
 
     /* Footer */
     footer {
@@ -336,13 +341,17 @@
         /* Darker shade for hover effect */
     }
 
+    #meg{
+        color:red;
+        font-size:1rem;
+        text-align: center;
+    }
 
     footer {
         text-align: center;
         background-color: var(--header);
         padding: 0.5rem;
         overflow: hidden;
-
 
     }
 

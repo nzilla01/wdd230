@@ -30,5 +30,35 @@ const fb = document.getElementById('meg');
 
 cpw.addEventListener('focusout', password);
 
+function password(){
+    if (pw.value != cpw.value){
+        pw.value ='';
+        cpw.value ='';
+        pw.focus
+        fb.textContent="values do not match try again !"
+    }
+    else{
+        window.location.href = "./record.html";
+        fb.textContent=''
+
+    }
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+    const rangeInput = document.getElementById("range");
+    const rangeValue = document.getElementById("rangevalue");
+
+    // Function to update the displayed range value
+    function updateRangeValue() {
+        rangeValue.textContent = rangeInput.value;
+    }
+
+   
+    updateRangeValue();
+
+    rangeInput.addEventListener("input", updateRangeValue);
+});
+
+
 
 
