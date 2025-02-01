@@ -43,3 +43,7 @@ if (!lastVisit) {
 
     localStorage.setItem('lastVisit', currentDate.toISOString().split('T')[0]);
 }
+
+
+document.getElementById("timestamp").value = new Date().toISOString();
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="author" content="Okon Nsikak">
+        <meta name="description" content="Welcome to Chamber of Commerce - Supporting local businesses and the community this is the join age for interested persons.">
+        <meta property="og:title" content="Chamber of Commerce join page">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://okonnsikak.github.io/wdd230/chamber/images/images3.jpeg">
+        <meta property="og:url" content="https://okonnsikak.github.io/wdd230/chamber/">
+        <title>Chamber Of Commerce join page</title>
+        <link rel="icon" href="images/images.jpeg" type="image/x-icon">
+        <link rel="stylesheet" href="./styles/base.css">
+        <link rel="stylesheet" href="./styles/normalize.css">
+        <link rel="stylesheet" href="./styles/large.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    </head>
+    
+<body>
+    <header>
+        <h1>Chamber of Commerce</h1>
+        <button class="hambuger"></button>
+    </header>
+    <nav>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="./discover.html"> Discover </a></li>
+        </ul>
+    </nav>
+    <div class="main">
+        
+        <form method="get" id="join" action="thankyou.html">
+            
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required>
+            
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required>
+        
+            <label for="title">Title/Position:</label>
+            <input type="text" id="title" name="title" pattern="[A-Za-z\s\-]{7,}" required>
+        
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="example@email.com" required>
+        
+            <label for="phone">Mobile Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+        
+            <label for="business-name">Business/Organization Name:</label>
+            <input type="text" id="business-name" name="business-name" required>
+        
+            <label for="membership">Membership Level:</label>
+            <select id="membership" name="membership">
+                <option value="np">NP Membership (Non-Profit - Free)</option>
+                <option value="bronze">Bronze Membership</option>
+                <option value="silver">Silver Membership</option>
+                <opApplicationtion value="gold">Gold Membership</option>
+            </select>
+        
+            <label for="description">Business/Organization Description:</label>
+            <textarea id="description" name="description"></textarea>
+        
+            <input type="hidden" id="timestamp" name="timestamp" value="">
+            
+            <input type="submit" id="btn" value= "Submit Application" >
+        </form>         
+    </div>
+    <footer>
+        <span id="copyrightInfo"></span> <br>
+        <span>Supporting and promoting businesses in Nigeria.</span> <br>
+        <span id="lastModified"></span>
+      </footer>
+    <script src="script/main.js"></script>
+</body>
+</html>
