@@ -185,6 +185,10 @@
     display: block; 
     border-radius: 8px; 
 }
+#main figure img:hover {
+    transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+    transition: 0.3s;
+}
 .main{
     padding: 30px 10px;
     margin: 10px 10px;
