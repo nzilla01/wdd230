@@ -14,7 +14,6 @@ const copyrightText = `&copy; ${currentYear} 🌸 ${name} 🌸 ${country}, ${sta
 document.getElementById("copyrightInfo").innerHTML = copyrightText;
 
 // toggle background color of the body
-// Get the button and the body element
 const toggleBtn = document.getElementById('dark-mode-toggle');
 const body = document.body;
 

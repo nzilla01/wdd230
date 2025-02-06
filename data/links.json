@@ -1,8 +1,40 @@
 {
-    "weeks" : {
-    "week": "week 1",
-    "link":[
-
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          { "url": "week01/activity.html", "title": "Layout & Media Query" },
+          { "url": "week01/js-pen.html", "title": "JS Pen" }
+        ]
+      },
+      {
+        "week": "Week 2",
+        "links": [
+          { "url": "week02/forms.html", "title": "Forms" },
+          { "url": "week02/css-grid.html", "title": "CSS Grid" }
+        ]
+      },
+      {
+        "week": "Week 3",
+        "links": [
+          { "url": "week03/flexbox.html", "title": "Flexbox" },
+          { "url": "week03/js-events.html", "title": "JS Events" }
+        ]
+      },
+      {
+        "week": "Week 4",
+        "links": [
+          { "url": "week04/api-fetch.html", "title": "API Fetch" },
+          { "url": "week04/responsive-nav.html", "title": "Responsive Navigation" }
+        ]
+      },
+      {
+        "week": "Week 5",
+        "links": [
+          { "url": "week05/weather-api.html", "title": "Weather API" },
+          { "url": "week05/json-data.html", "title": "JSON Data" }
+        ]
+      }
     ]
-}
-}
+  }
+  
