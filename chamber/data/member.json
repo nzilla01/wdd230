@@ -1,0 +1,68 @@
+{
+    "members": [
+      {
+        "name": "Alpha Tech Solutions",
+        "email": "contact@alphatech.com",
+        "phone": "08098765432",
+        "website url": "www.alphatech.com",
+        "image": "tech.webp",
+        "membership level": "gold",
+        "date joined": "2019-07-15"
+      },
+      {
+        "name": "Beta Logistics",
+        "email": "info@betalogistics.com",
+        "phone": "08123456789",
+        "website url": "www.betalogistics.com",
+        "image": "logist.webp",
+        "membership level": "silver",
+        "date joined": "2021-03-22"
+      },
+      {
+        "name": "Gamma Retail",
+        "email": "support@gammaretail.com",
+        "phone": "09011223344",
+        "website url": "www.gammaretail.com",
+        "image": "gramma.webp",
+        "membership level": "gold",
+        "date joined": "2018-11-10"
+      },
+      {
+        "name": "Delta Constructions",
+        "email": "contact@deltaconstructions.com",
+        "phone": "08055667788",
+        "website url": "www.deltaconstructions.com",
+        "image": "business.webp",
+        "membership level": "platinum",
+        "date joined": "2022-06-05"
+      },
+      {
+        "name": "Epsilon Financials",
+        "email": "services@epsilonfinancials.com",
+        "phone": "08199887766",
+        "website url": "www.epsilonfinancials.com",
+        "image": "growth.webp",
+        "membership level": "silver",
+        "date joined": "2020-09-30"
+      },
+      {
+        "name": "Zeta Media",
+        "email": "media@zetamedia.com",
+        "phone": "09055443322",
+        "website url": "www.zetamedia.com",
+        "image": "media.webp",
+        "membership level": "gold",
+        "date joined": "2017-12-25"
+      },
+      {
+        "name": "Theta Innovations",
+        "email": "hello@thetainnovations.com",
+        "phone": "08123444321",
+        "website url": "www.thetainnovations.com",
+        "image": "innovation.webp",
+        "membership level": "bronze",
+        "date joined": "2023-01-17"
+      }
+    ]
+  }
+  
