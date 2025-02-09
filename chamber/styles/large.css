@@ -238,17 +238,14 @@ input:focus {
     background-color: #0056b3;
 }
 /* style for the directory page */
-#js{
+.grid #js{
     font-size: 20px;
     text-align: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 20px;
     row-gap: 20px;
-}
-.companies{
     font-size: 20px;
-    text-align: center;
     box-shadow:0 4px 6px rgba(0, 0, 0, 0.4) ;
     line-height: 1.5rem;
     margin:22px 20px;
@@ -261,12 +258,50 @@ input:focus {
     display: block;
     border-radius: 8px;
 }
-.main h4{
+.main .display{
     padding: 10px;
     font-size: 1.8rem;
-    text-align: center;
     box-shadow:0 4px 6px rgba(0, 0, 0, 0.4) ;
+    display:flex;
+    text-align: center;
+    justify-content: center;
 }
+.display h4{
+    margin-right: 3rem;
+}
+.display button{
+
+    padding: 10px;
+    background: none;
+    border: none;
+    margin-left:10px ;
+}
+
+.list #js {
+    display: block; 
+    text-align: center;
+    
+}
+
+.list .companies {
+    display: flex;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    font-size: 15px;
+}
+
+.list .companies p {
+    display: flex;
+    padding: 10px 10px;
+   
+}
+
+  .list .companies img{
+     display: none;
+  }
+  .list .companies:nth-child(even){
+   background:#bed ;
+  }
  
 
 }

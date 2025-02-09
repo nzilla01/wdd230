@@ -236,12 +236,33 @@
     display: block;
     border-radius: 8px;
 }
- .main h4{
+ .main .display{
     padding: 10px;
     font-size: 1.8rem;
     box-shadow:0 4px 6px rgba(0, 0, 0, 0.4) ;
+    display:flex;
 }
- 
+.display h4{
+    margin-right: 3rem;
+}
+.display button{
+
+    padding: 10px;
+    background: none;
+    border: none;
+    margin-left:10px ;
+}
+ .list .companies{
+   display: block;
+    font-size: 15px;
+ }
+ .list .companies img{
+    display: none;
+ }
+ .list .companies:nth-child(even){
+  background:#bed ;
+ }
+
 
 
 

@@ -5,10 +5,8 @@ async function fetchmembership() {
         if(!response.ok) throw new Error("link was not found");
         const data = await response.json();
         console.log(data.members);
-        document.getElementById("js").innerHTML = data.members.map(member => {
-
-            return `
-            <div class="companies">
+       const displayPage= document.getElementById("js").innerHTML = data.members.map(member => {
+            return `<div class="companies">
              <img src=" ${member.image} " alt= "company logo " width = "300" loading="lazy">  <br>
             <p><strong> Name:</strong> ${member.name}</p>  <br>
             <p> <strong> Email: </strong> ${member.email} </p> <br>
@@ -18,7 +16,7 @@ async function fetchmembership() {
                <p> <strong> date joined: </strong> ${member.date} </p>
                </div>`
             ;
-        }).join(""); ;
+        }).join(""); 
     }
         catch(error){
             console.error("membership fetch error:", error);
@@ -28,3 +26,18 @@ async function fetchmembership() {
     document.addEventListener("DOMContentLoaded", () => {
         fetchmembership();
     });
+
+    const grid = document.getElementById("grid");
+    const list = document.getElementById("list");
+
+    grid.addEventListener("click", () => {
+        document.getElementById("js").classList.remove("list");
+        document.getElementById("js").classList.add("grid");
+    });
+
+    list.addEventListener("click", () => {          
+        document.getElementById("js").classList.remove("grid");
+        document.getElementById("js").classList.add("list");
+    });
+
+   

@@ -30,7 +30,7 @@ let lastVisit = localStorage.getItem('lastVisit');
 let currentDate = new Date();
 
 if (!lastVisit) {
-   document.querySelector('.message').innerHTML = "Welcome! Let us know if you have any questions.";
+   document.querySelector('.message').textContent = "Welcome! Let us know if you have any questions.";
 
     localStorage.setItem('lastVisit', currentDate.toISOString().split('T')[0]);
 } else {
@@ -38,10 +38,10 @@ if (!lastVisit) {
     let timeDiff = Math.floor((currentDate - lastVisitDate) / (1000 * 3600 * 24));
 
     if (timeDiff < 1) {
-        document.querySelector('.message').innerHTML = "Back so soon! Awesome!";
+        document.querySelector('.message').textContent = "Back so soon! Awesome!";
     } else {
         let dayText = timeDiff === 1 ? 'day' : 'days';
-        document.querySelector('.message').innerHTML = `You last visited ${timeDiff} ${dayText} ago.`;
+        document.querySelector('.message').textContent = `You last visited ${timeDiff} ${dayText} ago.`;
     }
 
     localStorage.setItem('lastVisit', currentDate.toISOString().split('T')[0]);
