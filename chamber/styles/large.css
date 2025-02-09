@@ -238,18 +238,21 @@ input:focus {
     background-color: #0056b3;
 }
 /* style for the directory page */
-.grid #js{
+.grid{
     font-size: 20px;
     text-align: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 20px;
     row-gap: 20px;
-    font-size: 20px;
-    box-shadow:0 4px 6px rgba(0, 0, 0, 0.4) ;
-    line-height: 1.5rem;
-    margin:22px 20px;
-    padding:30px 5px;
+}
+.grid .companies{
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    justify-content: center;
 }
 .companies img{
     width: 100%;
