@@ -237,4 +237,36 @@ input:focus {
 #btn:hover {
     background-color: #0056b3;
 }
+/* style for the directory page */
+#js{
+    font-size: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.companies{
+    font-size: 20px;
+    text-align: center;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.4) ;
+    line-height: 1.5rem;
+    margin:22px 20px;
+    padding:30px 5px;
+}
+.companies img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+}
+.main h4{
+    padding: 10px;
+    font-size: 1.8rem;
+    text-align: center;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.4) ;
+}
+ 
+
 }

@@ -11,8 +11,10 @@ const copyrightText = `&copy; ${currentYear} 🌸 ${name} 🌸 ${country}, ${sta
 
 // Insert the copyright text into the element with id 'copyrightInfo'
 document.getElementById("copyrightInfo").innerHTML = copyrightText;
-const toggleBtn = document.getElementById('dark-mode-toggle');
-const body = document.body;
+
+// const toggleBtn = document.getElementById('dark-mode-toggle');
+// const body = document.body;
+// console.log(toggleBtn)
 
 // the navbar toggle script
 const menu = document.querySelector('.hambuger');
@@ -28,7 +30,8 @@ let lastVisit = localStorage.getItem('lastVisit');
 let currentDate = new Date();
 
 if (!lastVisit) {
-    document.querySelector('.message').innerHTML = "Welcome! Let us know if you have any questions.";
+   document.querySelector('.message').innerHTML = "Welcome! Let us know if you have any questions.";
+
     localStorage.setItem('lastVisit', currentDate.toISOString().split('T')[0]);
 } else {
     let lastVisitDate = new Date(lastVisit);
@@ -46,4 +49,3 @@ if (!lastVisit) {
 
 
 document.getElementById("timestamp").value = new Date().toISOString();
-
