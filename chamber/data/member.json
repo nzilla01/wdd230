@@ -1,68 +1,74 @@
 {
-    "members": [
+  "members": [
       {
-        "name": "Alpha Tech Solutions",
-        "email": "contact@alphatech.com",
-        "phone": "08098765432",
-        "website": "www.alphatech.com",
-        "image": "./images/techh.webp",
-        "membership": "gold",
-        "date": "2019-07-15"
+          "name": "Alpha Tech Solutions",
+          "email": "contact@alphatech.com",
+          "phone": "08098765432",
+          "website": "www.alphatech.com",
+          "image": "./images/techh.webp",
+          "membership": "gold",
+          "date": "2019-07-15",
+          "physical_address": "123 Tech Avenue, Lagos, Nigeria"
       },
       {
-        "name": "Beta Logistics",
-        "email": "info@betalogistics.com",
-        "phone": "08123456789",
-        "website": "www.betalogistics.com",
-        "image": "./images/logist.webp",
-        "membership": "silver",
-        "date": "2021-03-22"
+          "name": "Beta Logistics",
+          "email": "info@betalogistics.com",
+          "phone": "08123456789",
+          "website": "www.betalogistics.com",
+          "image": "./images/logist.webp",
+          "membership": "silver",
+          "date": "2021-03-22",
+          "physical_address": "45 Logistics Street, Abuja, Nigeria"
       },
       {
-        "name": "Gamma Retail",
-        "email": "support@gammaretail.com",
-        "phone": "09011223344",
-        "website": "www.gammaretail.com",
-        "image": "./images/gramma.webp",
-        "membership": "gold",
-        "date": "2018-11-10"
+          "name": "Gamma Retail",
+          "email": "support@gammaretail.com",
+          "phone": "09011223344",
+          "website": "www.gammaretail.com",
+          "image": "./images/gramma.webp",
+          "membership": "gold",
+          "date": "2018-11-10",
+          "physical_address": "78 Retail Plaza, Port Harcourt, Nigeria"
       },
       {
-        "name": "Delta Constructions",
-        "email": "contact@deltaconstructions.com",
-        "phone": "08055667788",
-        "website": "www.deltaconstructions.com",
-        "image": "./images/business.webp",
-        "membership": "platinum",
-        "date": "2022-06-05"
+          "name": "Delta Constructions",
+          "email": "contact@deltaconstructions.com",
+          "phone": "08055667788",
+          "website": "www.deltaconstructions.com",
+          "image": "./images/business.webp",
+          "membership": "platinum",
+          "date": "2022-06-05",
+          "physical_address": "12 Builder's Lane, Kano, Nigeria"
       },
       {
-        "name": "Epsilon Financials",
-        "email": "services@epsilonfinancials.com",
-        "phone": "08199887766",
-        "website": "www.epsilonfinancials.com",
-        "image": "./images/growth.webp",
-        "membership": "silver",
-        "date": "2020-09-30"
+          "name": "Epsilon Financials",
+          "email": "services@epsilonfinancials.com",
+          "phone": "08199887766",
+          "website": "www.epsilonfinancials.com",
+          "image": "./images/growth.webp",
+          "membership": "silver",
+          "date": "2020-09-30",
+          "physical_address": "90 Finance Towers, Enugu, Nigeria"
       },
       {
-        "name": "Zeta Media",
-        "email": "media@zetamedia.com",
-        "phone": "09055443322",
-        "website": "www.zetamedia.com",
-        "image": "./images/media.webp",
-        "membership": "gold",
-        "date": "2017-12-25"
+          "name": "Zeta Media",
+          "email": "media@zetamedia.com",
+          "phone": "09055443322",
+          "website": "www.zetamedia.com",
+          "image": "./images/media.webp",
+          "membership": "gold",
+          "date": "2017-12-25",
+          "physical_address": "33 Creative Hub, Ibadan, Nigeria"
       },
       {
-        "name": "Theta Innovations",
-        "email": "hello@thetainnovations.com",
-        "phone": "08123444321",
-        "website": "www.thetainnovations.com",
-        "image": "./images/innovation.webp",
-        "membership": "bronze",
-        "date": "2023-01-17"
+          "name": "Theta Innovations",
+          "email": "hello@thetainnovations.com",
+          "phone": "08123444321",
+          "website": "www.thetainnovations.com",
+          "image": "./images/innovation.webp",
+          "membership": "bronze",
+          "date": "2023-01-17",
+          "physical_address": "55 Tech Park, Benin City, Nigeria"
       }
-    ]
-  }
-  
+  ]
+}

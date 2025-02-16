@@ -12,8 +12,10 @@ async function fetchmembership() {
             <p> <strong> Email: </strong> ${member.email} </p> <br>
              <p> <strong>Phone : </strong> ${member.phone}</p><br>
               <p> <strong> website: </strong> <a href="${member.website}"> ${member.website} </a> </p> <br>
+              <p><strong>Address:</strong> ${member.physical_address}</p><br>
               <p> <strong> membership: </strong> ${member.membership} </p></br> 
                <p> <strong> date joined: </strong> ${member.date} </p>
+
                </div>`
             ;
         }).join(""); 
