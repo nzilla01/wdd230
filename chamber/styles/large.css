@@ -305,6 +305,11 @@ input:focus {
   .list .companies:nth-child(even){
    background:#bed ;
   }
- 
+  main #about{
+    line-height: 2.6rem;
+    grid-column: span 2;
+    text-align: center;
+ }
+
 
 }

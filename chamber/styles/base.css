@@ -262,6 +262,9 @@
  .list .companies:nth-child(even){
   background:#bed ;
  }
+ main #about{
+    line-height: 2.4rem;
+ }
 
 
 
