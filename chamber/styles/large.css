@@ -231,7 +231,7 @@
     cursor: pointer;
 }
 input:focus {
-    border-color: 1px solid var(--active);
+    border: 1px solid var(--active);
     box-shadow: 0 0 8px var(--active);
 }
 #btn:hover {
@@ -246,7 +246,7 @@ input:focus {
     column-gap: 20px;
     row-gap: 20px;
 }
-.grid .companies{
+ .grid .companies{
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
     font-size: 15px;
